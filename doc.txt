@@ -1,0 +1,7 @@
+a la racine du dossier auth_api , tu verras un fichier nomme client.py  . ce fichier permet l'envoie des donnees a l'api .Ce fichier prend en entre : le nom, le prenom .Les donnees de ce fichier sont enregistrees dans la table Personne situee dans le models.py .
+
+
+ remplace la tabe Personne par la table ou devra s'enregistrer les donnees de l'api ensuite va dans le fichier serializer.py tu modifies a la ligne 7 le nom de la table et tu speficie les champs dans le fields. n'oublie pas d'importer cette table dans le views.py
+ 
+ 
+l'api prend en entree les champs du model et en sortie le code 200 si tout se passe bien.
